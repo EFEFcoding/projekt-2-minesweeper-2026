@@ -1,14 +1,14 @@
 # Figma-prototype
 
-[Åbn den redigerbare designfil](https://www.figma.com/design/viA0U9Uwmhw85fXbkVWvaK)
+[Åbn den redigerbare designfil](https://www.figma.com/design/viA0U9Uwmhw85fXbkVWvaK/Projekt-2-%E2%80%94-Minesweeper-2026?node-id=0-1)
 
-[Start den klikbare prototype](https://www.figma.com/proto/viA0U9Uwmhw85fXbkVWvaK/Projekt-2-Minesweeper?node-id=5-2&starting-point-node-id=5%3A2)
+[Start den klikbare prototype](https://www.figma.com/proto/viA0U9Uwmhw85fXbkVWvaK/Projekt-2-%E2%80%94-Minesweeper-2026?node-id=5-2&starting-point-node-id=5%3A2)
 
 ## Download og import
 
 [Download den redigerbare Figma-fil](minesweeper.fig?raw=true). Kopien er eksporteret fra Figma og indeholder den samlede side med wireframes, seks prototypeskærme, feltkomponenten og klikforbindelserne.
 
-Åbn Figmas filoversigt, vælg **Import from computer**, og vælg den downloadede `.fig`-fil. Du kan også trække filen ind i filoversigten. Figma opretter en selvstændig kopi på din konto, som du kan åbne og redigere. Hvis onlinelinket beder om adgang, kan den downloadede kopi bruges direkte via import.
+Hvis et af Figma-linkene ikke virker, kan den downloadede kopi bruges direkte via import. Åbn Figmas filoversigt, vælg **Import from computer**, og vælg den downloadede `.fig`-fil. Du kan også trække filen ind i filoversigten. Figma opretter en selvstændig kopi på din konto, som du kan åbne og redigere.
 
 ## Wireframes
 

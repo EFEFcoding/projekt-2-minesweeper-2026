@@ -45,9 +45,9 @@ JavaScript-filerne består af navngivne funktioner, løkker, arrays, objekter og
 
 ## Design
 
-[Download redigerbar Figma-fil](docs/minesweeper.fig?raw=true). Importér filen i Figma via **Import from computer**, eller træk den ind i Figmas filoversigt. Kopien indeholder wireframes, prototypeskærme og klikforbindelser på én side og kan åbnes på din egen Figma-konto.
+Hvis et af Figma-linkene ikke virker, kan du [downloade den redigerbare Figma-fil](docs/minesweeper.fig?raw=true). Importér filen i Figma via **Import from computer**, eller træk den ind i Figmas filoversigt. Kopien indeholder wireframes, prototypeskærme og klikforbindelser på én side og kan åbnes på din egen Figma-konto.
 
-[Designbrief](docs/designbrief.pdf) · [Redigerbar Figma-fil](https://www.figma.com/design/viA0U9Uwmhw85fXbkVWvaK) · [Klikbar prototype](https://www.figma.com/proto/viA0U9Uwmhw85fXbkVWvaK/Projekt-2-Minesweeper?node-id=5-2&starting-point-node-id=5%3A2)
+[Designbrief](docs/designbrief.pdf) · [Redigerbar Figma-fil](https://www.figma.com/design/viA0U9Uwmhw85fXbkVWvaK/Projekt-2-%E2%80%94-Minesweeper-2026?node-id=0-1) · [Klikbar prototype](https://www.figma.com/proto/viA0U9Uwmhw85fXbkVWvaK/Projekt-2-%E2%80%94-Minesweeper-2026?node-id=5-2&starting-point-node-id=5%3A2)
 
 [Wireframes til computer og mobil](https://www.figma.com/design/viA0U9Uwmhw85fXbkVWvaK?node-id=22-1496) findes i sektionen Wireframes på samme Figma-side som prototypens skærme.
 
