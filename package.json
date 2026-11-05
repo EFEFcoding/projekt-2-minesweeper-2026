@@ -1,0 +1,11 @@
+{
+  "name": "projekt-2-minesweeper-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minesweeper med en lokal Node.js-server til Projekt 2.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/spil.test.js test/server.test.js"
+  },
+  "engines": { "node": ">=20" }
+}

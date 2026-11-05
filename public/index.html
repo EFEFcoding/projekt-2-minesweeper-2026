@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minesweeper</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/stil.css">
+  <script src="/spil.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="side">
+    <header><a href="/">Minesweeper</a><a href="#regler">Sådan spiller du</a></header>
+    <h1>Ryd brættet</h1>
+    <p>9 × 9 felter og 10 miner. Åbn alle 71 sikre felter for at vinde.</p>
+    <main class="spil-layout">
+      <section class="spillebord">
+        <h2>Spil</h2>
+        <div class="maalinger">
+          <div>Brugt tid<strong id="brugt-tid">00:00</strong></div>
+          <div>Tid tilbage<strong id="tid-tilbage">03:00</strong></div>
+          <div>Flag tilbage<strong id="flag-tilbage">10</strong></div>
+        </div>
+        <div id="braet" class="braet" role="group" aria-label="Minesweeper med 81 felter"></div>
+        <div class="handlinger">
+          <span>Første klik er sikkert.</span>
+          <button id="flag-knap" type="button" aria-pressed="false">Sæt flag</button>
+        </div>
+        <p id="status-tekst" role="status">Vælg eller opret en spiller.</p>
+        <div class="handlinger"><button id="nyt-spil" type="button">Nyt spil</button><span id="aabne-felter">0 af 71 sikre felter</span></div>
+        <noscript>Slå JavaScript til for at spille.</noscript>
+      </section>
+      <aside class="sidepanel">
+        <section class="spiller-panel">
+          <h2>Spiller</h2>
+          <form id="spiller-form">
+            <label for="spiller-navn">Dit spillernavn</label>
+            <div class="navn-raekke">
+              <input id="spiller-navn" maxlength="24" required autocomplete="off">
+              <button id="opret-spiller" type="submit">Vælg</button>
+            </div>
+          </form>
+          <p id="spiller-besked">Et nyt navn opretter en spiller. Brug samme navn for at se dine rekorder igen.</p>
+        </section>
+        <section class="indstillings-panel">
+          <h2>Indstillinger</h2>
+          <label for="tidsloft">Maksimal tid i sekunder</label>
+          <input id="tidsloft" type="number" min="15" max="3600" value="180" required>
+          <p>15–3600 sekunder. Uret starter ved første åbne felt.</p>
+        </section>
+        <section class="rekord-panel">
+          <h2>Dine 3 bedste tider</h2>
+          <p id="rekord-spiller">Vælg en spiller.</p>
+          <ol id="rekorder"></ol>
+        </section>
+      </aside>
+    </main>
+    <section id="regler">
+      <h2>Sådan spiller du</h2>
+      <p>Et tal viser, hvor mange miner der ligger i de otte nabofelter.</p>
+      <p>Klik for at åbne et felt. Højreklik for at sætte eller fjerne et flag. På mobil vælger du Sæt flag og trykker på et felt.</p>
+      <p>Du vinder ved at åbne alle 71 sikre felter. Hvis du rammer en mine eller bruger tiden op, er spillet slut.</p>
+    </section>
+    <footer>Minesweeper</footer>
+  </div>
+</body>
+</html>
